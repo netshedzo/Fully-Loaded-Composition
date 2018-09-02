@@ -1,0 +1,49 @@
+Composition - C++ Introducion
+KFC
+StreetWise2 Mike;
+Mike.addCoke(Medium);
+Mike.print(); //
+Mike.pay(cash);
+Mike.delete();
+//next  customer
+Mike.addChips(small);
+Fully_Loaded Thandeka;
+Thandeka.addCoke(Small);
+
+
+
+Fully_Loaded  class <- ingredients <-has a
+
++Chips class
+-int salt;
+-int potatos;
+-int time;
+
+step 1 C++
+1.use Practical examples;
+2.use something understand most
+
++Soup class
+-ingredients;
+-water;
+-heat; 100
++Burger class
+-Chicken <-class
+-cheess;
+-buns;
+
++Chicken class
+-Spice;
+-drumsticks;
+-temperature;
+-time;
++Coke class
+-plastic_size;
+-int ice;
+-coke;
+
+
+UJ >> IMAGE ingredients <<shape , color
+
+
+composition - ingredients that make up a class(object)

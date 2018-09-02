@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\davis\documents\kfc_fully_louded\main.cpp
+	<iostream>
+
+1535846138 source:c:\users\davis\documents\kfc_fully_louded\src\burger.cpp
+	"Burger.h"
+
+1535846138 c:\users\davis\documents\kfc_fully_louded\include\burger.h
+
+1535846102 source:c:\users\davis\documents\kfc_fully_louded\src\chicken.cpp
+	"Chicken.h"
+
+1535846102 c:\users\davis\documents\kfc_fully_louded\include\chicken.h
+
+1535846086 source:c:\users\davis\documents\kfc_fully_louded\src\chips.cpp
+	"Chips.h"
+
+1535846086 c:\users\davis\documents\kfc_fully_louded\include\chips.h
+
+1535847120 source:c:\users\davis\documents\kfc_fully_louded\src\coke.cpp
+	"Coke.h"
+
+1535847875 c:\users\davis\documents\kfc_fully_louded\include\coke.h
+	<iostream>
+
+1535846121 source:c:\users\davis\documents\kfc_fully_louded\src\soup.cpp
+	"Soup.h"
+
+1535846120 c:\users\davis\documents\kfc_fully_louded\include\soup.h
+
+1535847217 source:c:\users\davis\documents\kfc_fully_louded\src\fully_loadead.cpp
+	"Fully_loadead.h"
+
+1535847151 c:\users\davis\documents\kfc_fully_louded\include\fully_loadead.h
+	"Burger.h"
+	"Chicken.h"
+	"Chips.h"
+	"Coke.h"
+	"Soup.h"
+	<iostream>
+

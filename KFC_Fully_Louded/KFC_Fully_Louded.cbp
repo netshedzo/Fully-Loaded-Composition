@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="KFC_Fully_Louded" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/KFC_Fully_Louded" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/KFC_Fully_Louded" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Burger.h" />
+		<Unit filename="include/Chicken.h" />
+		<Unit filename="include/Chips.h" />
+		<Unit filename="include/Coke.h" />
+		<Unit filename="include/Fully_loadead.h" />
+		<Unit filename="include/Soup.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Burger.cpp" />
+		<Unit filename="src/Chicken.cpp" />
+		<Unit filename="src/Chips.cpp" />
+		<Unit filename="src/Coke.cpp" />
+		<Unit filename="src/Fully_loadead.cpp" />
+		<Unit filename="src/Soup.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
